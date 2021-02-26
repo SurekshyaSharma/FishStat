@@ -1,0 +1,100 @@
+Sunfish,Itasca,15
+White Sucker,Vermilion,45
+White Sucker,Vermilion,30
+Yellow Perch,Snail,25
+Smallmouth Bass,Snail,27
+Smallmouth Bass,Superior,28
+Yellow Perch,Snail,17
+Yellow Perch,Carlos,16
+Sunfish,Snail,15
+Yellow Perch,Superior,21
+Smallmouth Bass,Superior,26
+Walleye,Carlos,67
+Smallmouth Bass,Superior,32
+Smallmouth Bass,Carlos,38
+Walleye,Superior,100
+Northern Pike,Vermilion,52
+Sunfish,Superior,16
+Yellow Perch,Itasca,20
+Walleye,Vermilion,78
+Walleye,Carlos,64
+Sunfish,Snail,20
+Yellow Perch,Snail,23
+Smallmouth Bass,Superior,26
+White Sucker,Vermilion,37
+Northern Pike,Superior,57
+Walleye,Snail,87
+Northern Pike,Vermilion,41
+Sunfish,Carlos,14
+Smallmouth Bass,Vermilion,25
+Yellow Perch,Itasca,17
+Walleye,Superior,88
+Smallmouth Bass,Itasca,32
+Sunfish,Carlos,16
+Sunfish,Snail,19
+Smallmouth Bass,Carlos,35
+Walleye,Carlos,102
+Smallmouth Bass,Superior,32
+Walleye,Itasca,65
+Walleye,Carlos,82
+Sunfish,Vermilion,14
+Walleye,Superior,74
+Yellow Perch,Vermilion,19
+Walleye,Vermilion,76
+Northern Pike,Snail,57
+Northern Pike,Superior,49
+Smallmouth Bass,Itasca,32
+Walleye,Vermilion,97
+Smallmouth Bass,Itasca,32
+Northern Pike,Vermilion,57
+White Sucker,Superior,29
+Walleye,Itasca,75
+Sunfish,Snail,16
+Northern Pike,Itasca,59
+Northern Pike,Carlos,61
+White Sucker,Superior,36
+Smallmouth Bass,Carlos,37
+Yellow Perch,Snail,26
+Yellow Perch,Superior,24
+Yellow Perch,Vermilion,16
+White Sucker,Snail,41
+Northern Pike,Vermilion,50
+White Sucker,Carlos,29
+Yellow Perch,Carlos,24
+White Sucker,Superior,40
+Northern Pike,Itasca,50
+Smallmouth Bass,Vermilion,33
+Walleye,Vermilion,75
+White Sucker,Itasca,30
+Northern Pike,Itasca,46
+Smallmouth Bass,Snail,34
+Northern Pike,Vermilion,46
+Walleye,Superior,89
+Northern Pike,Snail,45
+Sunfish,Itasca,17
+Northern Pike,Snail,40
+Sunfish,Carlos,21
+Smallmouth Bass,Itasca,30
+Sunfish,Superior,20
+White Sucker,Vermilion,36
+Walleye,Carlos,73
+Walleye,Superior,86
+Yellow Perch,Superior,24
+Walleye,Itasca,78
+Yellow Perch,Snail,19
+Yellow Perch,Vermilion,22
+Yellow Perch,Itasca,21
+Smallmouth Bass,Snail,30
+Walleye,Carlos,103
+Yellow Perch,Carlos,23
+Yellow Perch,Superior,19
+Smallmouth Bass,Snail,38
+Walleye,Carlos,99
+Walleye,Vermilion,90
+Yellow Perch,Snail,18
+Walleye,Carlos,96
+White Sucker,Itasca,42
+Northern Pike,Superior,64
+Northern Pike,Snail,43
+Walleye,Snail,68
+Yellow Perch,Carlos,19
