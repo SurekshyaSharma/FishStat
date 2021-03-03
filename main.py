@@ -32,7 +32,7 @@ def fishStatistic(lines_file):
 
     for i in lines_file:
         fish_Stat = i.split(",")
-        # creating the 2D 2D[[][]...]
+        # creating the 2D 2D[[a,b,c][a,b,c]...]
         fish_data.append([fish_Stat[0], fish_Stat[1], fish_Stat[2]])
         # individual array for fish_Species, location and length for graphical representation
         fish_Species.append(fish_Stat[0])
@@ -45,7 +45,6 @@ def fishStatistic(lines_file):
     # appending in an empty array of fish_data_species[i[0]] of different length of different fish species
     for i in fish_data:
         fish_data_species[i[0]].append(int(i[2]))
-    # print(fish_data_species)
 
     # calculating the average of all species
     fish_species_average = dict()
@@ -53,9 +52,10 @@ def fishStatistic(lines_file):
     for i in fish_data_species:
         fish_species_average[i] = find_average(fish_data_species[i])
         print("1.The average size of ", i, "is", fish_species_average[i])
-
+    print(fish_species_average)
     largest_average = 0
     largest_species = ''
+    # to find the maximum number in the comparing with Dictonary key i.e fish Species which has the average as value..
     for i in fish_species_average:
         if fish_species_average[i] > largest_average:
             largest_average = fish_species_average[i]
@@ -78,7 +78,7 @@ def fishStatistic(lines_file):
         lakes_average[i] = find_average(fish_data_lake[i])
         print("3.The average size of ", i, "is", lakes_average[i])
     # print(lakes_average)
-
+    # to find the maximum number in the comparing with Dictonary key i.e fish lake which the average as value.
     largest_lake_average = 0
     largest_lake = ''
     for i in lakes_average:
@@ -92,7 +92,7 @@ def fishStatistic(lines_file):
     for i in fish_data_lake:
         lakes_median[i] = find_median(fish_data_lake[i])
         print("4.The median size of ", i, "is", lakes_median[i])
-    # print(lakes_median)
+        print(lakes_median)
 
     largest_lake_median = 0
     largest_lake2 = ''
@@ -134,25 +134,25 @@ def graphicalRepresentation(fish_Species, length, lakes_median, lakes_average,la
     plt.xlabel('Fish Species', fontsize=12)
     plt.ylabel('Length in Cm', fontsize=12)
     plt.title('The average Largest of all Fish Species', fontsize=20)
-    plt.show()
+    # plt.show()
     # Showing The average largest fish is found
     for i in lakes_average:
         plt.bar(i, lakes_average[i], color='g', label='File Data')
         plt.xlabel('Fish Species', fontsize=12)
         plt.ylabel('Length in Cm', fontsize=12)
         plt.title('The average largest fish is found', fontsize=20)
-    plt.show()
+    # plt.show()
     # Showing The lake with the largest median (50th percentile) fish
     for i in lakes_median:
         plt.bar(i, lakes_median[i], color='g', label='File Data')
         plt.xlabel('Fish Species', fontsize=12)
         plt.ylabel('Length in Cm', fontsize=12)
         plt.title('The lake with the largest median (50th percentile) fish', fontsize=20)
-    plt.show()
+    # plt.show()
 
     # scatter plot showing the length of the all fish species
     plt.scatter(length, fish_Species)
-    plt.show()
+    # plt.show()
 
 
 readFile()
