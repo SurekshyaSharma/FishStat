@@ -38,7 +38,6 @@ def fishStatistic(lines_file):
         fish_Species.append(fish_Stat[0])
         lakes.append(fish_Stat[1])
         length.append(int(fish_Stat[2]))
-        print(length)
 
     # creating a dynamic empty array for different fish species
     for i in Counter(fish_Species).items():
