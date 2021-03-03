@@ -103,7 +103,7 @@ def fishStatistic(lines_file):
 
     print("4.Lake with Largest median is", largest_lake2, " (", largest_lake_median, ")")
 
-    graphicalRepresentation(fish_Species, length, lakes_median, lakes_average, lakes)
+    graphicalRepresentation(fish_Species, length, lakes_median, lakes_average)
 
 
 def find_average(input_array):
@@ -127,32 +127,32 @@ def find_median(input_array):
     return median
 
 
-def graphicalRepresentation(fish_Species, length, lakes_median, lakes_average,lakes):
+def graphicalRepresentation(fish_Species, length, lakes_median, lakes_average):
     # relation between fishSpecies and length.
     # the average Largest Fish of all species
     plt.bar(fish_Species, length, color='g', label='File Data')
     plt.xlabel('Fish Species', fontsize=12)
     plt.ylabel('Length in Cm', fontsize=12)
     plt.title('The average Largest of all Fish Species', fontsize=20)
-    # plt.show()
+    plt.show()
     # Showing The average largest fish is found
     for i in lakes_average:
         plt.bar(i, lakes_average[i], color='g', label='File Data')
         plt.xlabel('Fish Species', fontsize=12)
         plt.ylabel('Length in Cm', fontsize=12)
         plt.title('The average largest fish is found', fontsize=20)
-    # plt.show()
+    plt.show()
     # Showing The lake with the largest median (50th percentile) fish
     for i in lakes_median:
         plt.bar(i, lakes_median[i], color='g', label='File Data')
         plt.xlabel('Fish Species', fontsize=12)
         plt.ylabel('Length in Cm', fontsize=12)
         plt.title('The lake with the largest median (50th percentile) fish', fontsize=20)
-    # plt.show()
+    plt.show()
 
     # scatter plot showing the length of the all fish species
     plt.scatter(length, fish_Species)
-    # plt.show()
+    plt.show()
 
 
 readFile()
